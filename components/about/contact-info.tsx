@@ -39,7 +39,7 @@ export function ContactInfo() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Phone</h4>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+91 9968290156</p>
                     <p className="text-sm text-muted-foreground">Monday - Friday, 9 AM - 6 PM PST</p>
                   </div>
                 </div>

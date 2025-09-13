@@ -249,7 +249,7 @@ export function LeadForm() {
                   variant="outline"
                   className="bg-transparent border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                 >
-                  Call Emergency Line: +1 (555) 911-HELP
+                  Call Emergency Line: +1 (asd) 911-HELP
                 </Button>
               </CardContent>
             </Card>
