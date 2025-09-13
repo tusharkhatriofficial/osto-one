@@ -1,0 +1,141 @@
+"use client"
+
+import { Card, CardContent } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { Linkedin, Twitter, Mail } from "lucide-react"
+
+const founders = [
+  {
+    name: "Sarah Chen",
+    role: "Co-Founder & CEO",
+    bio: "Former CISO at two unicorn startups, Sarah brings 15+ years of cybersecurity leadership. She's passionate about making enterprise security accessible to every startup.",
+    image: "/professional-woman-ceo-cybersecurity.jpg",
+    linkedin: "#",
+    twitter: "#",
+    email: "sarah@osto.one",
+    expertise: ["Strategic Leadership", "Enterprise Security", "Compliance"],
+  },
+  {
+    name: "Marcus Rodriguez",
+    role: "Co-Founder & CTO",
+    bio: "Ex-Google security engineer and serial entrepreneur. Marcus architected security systems protecting billions of users and now focuses on startup-scale solutions.",
+    image: "/professional-man-cto-engineer.jpg",
+    linkedin: "#",
+    twitter: "#",
+    email: "marcus@osto.one",
+    expertise: ["Security Architecture", "AI/ML", "Cloud Security"],
+  },
+  {
+    name: "Emily Watson",
+    role: "VP of Product",
+    bio: "Product leader with deep cybersecurity domain expertise. Emily previously led security product teams at Microsoft and understands what startups need to succeed.",
+    image: "/professional-woman-vp-product-manager.jpg",
+    linkedin: "#",
+    twitter: "#",
+    email: "emily@osto.one",
+    expertise: ["Product Strategy", "User Experience", "Security UX"],
+  },
+]
+
+export function TeamProfiles() {
+  return (
+    <section className="py-24 bg-muted/30">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Meet Our Team</h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Security experts, startup veterans, and passionate builders working together to protect the next generation
+            of innovative companies.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {founders.map((founder, index) => (
+            <Card key={index} className="shadow-2xl hover:shadow-3xl transition-all duration-300 group">
+              <CardContent className="p-8">
+                <div className="text-center mb-6">
+                  <div className="relative inline-block mb-4">
+                    <img
+                      src={founder.image || "/placeholder.svg"}
+                      alt={founder.name}
+                      className="w-32 h-32 rounded-full object-cover mx-auto group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold text-foreground mb-1">{founder.name}</h3>
+                  <p className="text-primary font-medium mb-4">{founder.role}</p>
+                </div>
+
+                <p className="text-muted-foreground leading-relaxed mb-6 text-center">{founder.bio}</p>
+
+                <div className="mb-6">
+                  <h4 className="font-semibold text-foreground mb-3 text-center">Expertise</h4>
+                  <div className="flex flex-wrap justify-center gap-2">
+                    {founder.expertise.map((skill, skillIndex) => (
+                      <span
+                        key={skillIndex}
+                        className="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full font-medium"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="flex justify-center space-x-4">
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    className="hover:bg-blue-50 hover:border-blue-200 bg-transparent"
+                  >
+                    <Linkedin className="w-4 h-4" />
+                  </Button>
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    className="hover:bg-blue-50 hover:border-blue-200 bg-transparent"
+                  >
+                    <Twitter className="w-4 h-4" />
+                  </Button>
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    className="hover:bg-blue-50 hover:border-blue-200 bg-transparent"
+                  >
+                    <Mail className="w-4 h-4" />
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+
+        {/* Team Values */}
+        <div className="mt-16 text-center">
+          <h3 className="text-2xl font-bold text-foreground mb-8">Our Team Values</h3>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+            <div className="text-center">
+              <div className="text-4xl mb-3">🚀</div>
+              <h4 className="font-semibold text-foreground mb-2">Move Fast</h4>
+              <p className="text-sm text-muted-foreground">Speed is a competitive advantage in cybersecurity</p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-3">🔒</div>
+              <h4 className="font-semibold text-foreground mb-2">Security First</h4>
+              <p className="text-sm text-muted-foreground">Every decision prioritizes customer security</p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-3">🤝</div>
+              <h4 className="font-semibold text-foreground mb-2">Customer Obsessed</h4>
+              <p className="text-sm text-muted-foreground">Our customers' success is our success</p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-3">💡</div>
+              <h4 className="font-semibold text-foreground mb-2">Innovate Always</h4>
+              <p className="text-sm text-muted-foreground">Continuous improvement and innovation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
