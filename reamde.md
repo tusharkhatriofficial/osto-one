@@ -1,4 +1,9 @@
-# Run on local machine
+# Live URL
+https://osto-one-smoky.vercel.app/
+
+# Though Process
+
+# Steps Run on local machine
 
 ### Install required npm packages
 ```shell
