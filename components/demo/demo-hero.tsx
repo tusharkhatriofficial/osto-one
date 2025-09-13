@@ -12,7 +12,7 @@ export function DemoHero() {
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance">
-            See Osto.one in <span className="text-primary">Action</span>
+            See Osto in <span className="text-primary">Action</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-4xl mx-auto text-pretty">

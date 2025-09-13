@@ -5,7 +5,7 @@ import { Star, Quote } from "lucide-react"
 
 const testimonials = [
   {
-    quote: "Osto.one transformed our security posture overnight. What used to take weeks now happens in minutes.",
+    quote: "Osto transformed our security posture overnight. What used to take weeks now happens in minutes.",
     author: "Sarah Chen",
     role: "CTO, TechFlow",
     rating: 5,

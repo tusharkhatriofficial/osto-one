@@ -18,7 +18,7 @@ export function MissionStatement() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <h3 className="text-2xl font-bold text-foreground mb-6">Why We Started Osto.one</h3>
+            <h3 className="text-2xl font-bold text-foreground mb-6">Why We Started Osto</h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
                 After years of working with enterprise security solutions, our founders saw a critical gap: startups
@@ -30,7 +30,7 @@ export function MissionStatement() {
                 protect their innovations, and enable their success without slowing them down.
               </p>
               <p>
-                That's why we built Osto.one: to give every startup access to the same level of protection that Fortune
+                That's why we built Osto: to give every startup access to the same level of protection that Fortune
                 500 companies enjoy, but with the speed and simplicity that startups demand.
               </p>
             </div>

@@ -7,9 +7,9 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Osto.one - Enterprise-grade Cybersecurity for Startups",
+  title: "Osto - Enterprise-grade Cybersecurity for Startups",
   description:
-    "Protect your startup from endpoint to cloud with Osto.one. Fast, automated, and reliable cybersecurity solutions that go live in 9 minutes.",
+    "Protect your startup from endpoint to cloud with Osto. Fast, automated, and reliable cybersecurity solutions that go live in 9 minutes.",
   generator: "v0.app",
 }
 

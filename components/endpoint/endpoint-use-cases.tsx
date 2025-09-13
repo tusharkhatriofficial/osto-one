@@ -7,7 +7,7 @@ const useCases = [
     title: "File Upload Blocking",
     description: "Automatically block malicious file uploads and downloads across all endpoints.",
     scenario:
-      "An employee attempts to download a suspicious .exe file from an email attachment. Osto.one instantly blocks the download and quarantines the file.",
+      "An employee attempts to download a suspicious .exe file from an email attachment. Osto instantly blocks the download and quarantines the file.",
     result: "Prevented potential ransomware infection",
   },
   {
@@ -35,7 +35,7 @@ export function EndpointUseCases() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Real-world Protection Scenarios</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            See how Osto.one endpoint security protects your business in common attack scenarios.
+            See how Osto endpoint security protects your business in common attack scenarios.
           </p>
         </div>
 

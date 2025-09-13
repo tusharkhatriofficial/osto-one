@@ -12,7 +12,7 @@ const founders = [
     image: "/professional-woman-ceo-cybersecurity.jpg",
     linkedin: "#",
     twitter: "#",
-    email: "sarah@osto.one",
+    email: "sarah@Osto",
     expertise: ["Strategic Leadership", "Enterprise Security", "Compliance"],
   },
   {
@@ -22,7 +22,7 @@ const founders = [
     image: "/professional-man-cto-engineer.jpg",
     linkedin: "#",
     twitter: "#",
-    email: "marcus@osto.one",
+    email: "marcus@Osto",
     expertise: ["Security Architecture", "AI/ML", "Cloud Security"],
   },
   {
@@ -32,7 +32,7 @@ const founders = [
     image: "/professional-woman-vp-product-manager.jpg",
     linkedin: "#",
     twitter: "#",
-    email: "emily@osto.one",
+    email: "emily@Osto",
     expertise: ["Product Strategy", "User Experience", "Security UX"],
   },
 ]

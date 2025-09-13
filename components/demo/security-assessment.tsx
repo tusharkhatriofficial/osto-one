@@ -226,7 +226,7 @@ export function SecurityAssessment() {
                       )}
                       <li className="flex items-start">
                         <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3"></div>
-                        Schedule a demo to see how Osto.one can improve your security posture
+                        Schedule a demo to see how Osto can improve your security posture
                       </li>
                     </ul>
                   </div>

@@ -11,7 +11,7 @@ export function NetworkDiagram() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Interactive Network Flow Diagram</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Visualize how Osto.one protects your network at every layer with real-time threat detection and response.
+            Visualize how Osto protects your network at every layer with real-time threat detection and response.
           </p>
         </div>
 
@@ -40,7 +40,7 @@ export function NetworkDiagram() {
                   <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-primary/20 to-primary/10 rounded-lg"></div>
                   <div className="relative p-6">
                     <div className="flex items-center justify-center mb-4">
-                      <Badge className="bg-primary text-primary-foreground">Osto.one Security Layer</Badge>
+                      <Badge className="bg-primary text-primary-foreground">Osto Security Layer</Badge>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                       {/* ZTNA Gateway */}

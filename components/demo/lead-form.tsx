@@ -27,7 +27,7 @@ export function LeadForm() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Get Started Today</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Tell us about your startup and security needs. We'll customize a demo that shows exactly how Osto.one can
+            Tell us about your startup and security needs. We'll customize a demo that shows exactly how Osto can
             protect your business.
           </p>
         </div>
@@ -207,7 +207,7 @@ export function LeadForm() {
                     <div>
                       <p className="font-medium text-foreground">Implementation Roadmap</p>
                       <p className="text-sm text-muted-foreground">
-                        Get a clear plan for deploying Osto.one in your environment
+                        Get a clear plan for deploying Osto in your environment
                       </p>
                     </div>
                   </li>

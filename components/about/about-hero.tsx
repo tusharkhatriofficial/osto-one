@@ -9,7 +9,7 @@ export function AboutHero() {
         <div className="text-center">
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary text-primary-foreground text-sm font-medium mb-8">
             <Users className="w-4 h-4 mr-2" />
-            About Osto.one
+            About Osto
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance">
@@ -17,7 +17,7 @@ export function AboutHero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-4xl mx-auto text-pretty">
-            Founded by cybersecurity experts, Osto.one is on a mission to democratize enterprise-grade security for
+            Founded by cybersecurity experts, Osto is on a mission to democratize enterprise-grade security for
             fast-growing startups. We believe every startup deserves protection without complexity.
           </p>
 

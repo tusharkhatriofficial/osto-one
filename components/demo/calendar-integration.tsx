@@ -16,7 +16,7 @@ const demoTypes = [
     icon: Video,
     title: "Live Product Demo",
     duration: "30 minutes",
-    description: "See Osto.one in action with real threat scenarios",
+    description: "See Osto in action with real threat scenarios",
   },
   {
     icon: Users,

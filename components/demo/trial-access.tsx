@@ -44,7 +44,7 @@ export function TrialAccess() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Launch Your Security Sandbox</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Get hands-on experience with Osto.one in a safe sandbox environment. No credit card required, full access to
+            Get hands-on experience with Osto in a safe sandbox environment. No credit card required, full access to
             all features for 14 days.
           </p>
         </div>
@@ -142,7 +142,7 @@ export function TrialAccess() {
               <CardContent className="p-8 text-center">
                 <h3 className="text-xl font-semibold text-foreground mb-4">Ready to Get Started?</h3>
                 <p className="text-muted-foreground mb-6">
-                  Join 100+ startups already protected by Osto.one. No credit card required.
+                  Join 100+ startups already protected by Osto. No credit card required.
                 </p>
                 <Button size="lg" className="w-full group">
                   <Shield className="mr-2 h-5 w-5" />

@@ -10,7 +10,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <Shield className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold text-primary">Osto.one</span>
+              <span className="text-xl font-bold text-primary">Osto</span>
             </Link>
             <p className="text-muted-foreground mb-6 max-w-md">
               Enterprise-grade cybersecurity for startups. Protect your business from endpoint to cloud with our fast,
@@ -19,7 +19,7 @@ export function Footer() {
             <div className="space-y-2">
               <div className="flex items-center text-muted-foreground">
                 <Mail className="w-4 h-4 mr-2" />
-                <span>hello@osto.one</span>
+                <span>hello@Osto</span>
               </div>
               <div className="flex items-center text-muted-foreground">
                 <Phone className="w-4 h-4 mr-2" />
@@ -88,7 +88,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-muted-foreground text-sm">© 2024 Osto.one. All rights reserved.</p>
+          <p className="text-muted-foreground text-sm">© 2024 Osto. All rights reserved.</p>
           <div className="flex items-center space-x-6 mt-4 md:mt-0">
             <div className="flex items-center space-x-4">
               <div className="flex items-center text-sm text-muted-foreground">

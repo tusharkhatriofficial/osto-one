@@ -28,7 +28,7 @@ export function ContactInfo() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                    <p className="text-muted-foreground">hello@osto.one</p>
+                    <p className="text-muted-foreground">hello@Osto</p>
                     <p className="text-sm text-muted-foreground">We typically respond within 2 hours</p>
                   </div>
                 </div>
