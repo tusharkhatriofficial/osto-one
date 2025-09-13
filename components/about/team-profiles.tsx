@@ -19,7 +19,7 @@ const founders = [
     name: "Praveen Gupta",
     role: "Co-Founder & CTO",
     bio: "Ex-Samsung, working with a vision to transform 1 million+ SMBs into security powerhouses through our upcoming product. I am deeply passionate about solving complex problems and excel at finding innovative solutions.",
-    image: "https://github-production-user-asset-6210df.s3.amazonaws.com/64004539/489161074-13aa1954-ed4f-4744-97f5-add9dcaf62ae.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250913%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250913T115855Z&X-Amz-Expires=300&X-Amz-Signature=be87e8b33ecf42fedc69661e24717662bf92fe537efb49b3cf8a4f98266d6866&X-Amz-SignedHeaders=host",
+    image: "https://ik.imagekit.io/5imclcanm/WhatsApp%20Image%202025-09-13%20at%2017.25.35.jpeg?updatedAt=1757788319928",
     linkedin: "#",
     twitter: "#",
     email: "marcus@Osto",
